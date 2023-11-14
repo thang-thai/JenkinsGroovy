@@ -1,0 +1,12 @@
+bin
+Debug
+net6.0
+ConsoleApp1.csproj	239
+ConsoleApp1.sln	1102
+obj
+Debug
+net6.0
+ref
+refint
+Program.cs	202
+releasenotes.txt	0
