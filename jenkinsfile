@@ -1,1 +1,5 @@
-genericbuild(target: "ConsoleApp1")
+node {
+	stage('Build') {
+		echo 'Building...'
+	}
+}
