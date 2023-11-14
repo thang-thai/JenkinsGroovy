@@ -4,12 +4,12 @@ node {
 		git branch: '${branch}', url: 'https://github.com/thang-thai/JenkinsGroovy.git'
 	}
 
-	stage('Build') {
-		echo 'Building...'
+    stage('Build') {
+        echo 'Building....'
 		sh 'dotnet --version'
 		sh 'dotnet build ConsoleApp1'
 		echo 'Building new feature'
-	}
+    }
 
 	stage('Test') {
 		echo 'Testing...'
